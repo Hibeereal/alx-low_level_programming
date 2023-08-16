@@ -23,6 +23,5 @@ int main(void)
 			printf(", ");
 		i++;
 	}
-	putchar('\n');
 	return (0);
 }

@@ -17,12 +17,12 @@ int main(void)
 		next = a + b;
 		a = b;
 		b = next;
-		printf("%lu\n", next);
+		printf("%lu", next);
 
 		if (i < 97)
-			printf(",");
+			printf(", ");
 		i++;
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }

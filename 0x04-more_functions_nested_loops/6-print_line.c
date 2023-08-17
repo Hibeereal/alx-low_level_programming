@@ -10,7 +10,7 @@
 
 void print_line(int n)
 {
-	int i;;
+	int i;
 
 	if (n > 0)
 	{

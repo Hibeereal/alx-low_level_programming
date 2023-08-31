@@ -37,7 +37,7 @@ int _strlen_recursion(char *s)
 
 /**
  * check_pal - check charcter recusively for palindroe
- * @s - string charcter
+ * @s: string charcter
  * @i: ilteration
  * @len: length
  *

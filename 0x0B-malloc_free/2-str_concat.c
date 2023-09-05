@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * strc_concat - Write a function that concatenates two strings.
+ * str_concat - Write a function that concatenates two strings.
  * @s1: string to be concat
  * @s2: string to be concat
  *
@@ -11,7 +11,7 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	int len1,len2;
+	int len1, len2;
 	char *result;
 
 	if (s1 == NULL)
@@ -26,6 +26,11 @@ char *str_concat(char *s1, char *s2)
 	len2 = strlen(s2);
 
 	result = (char *)malloc(len1 + len2 + 1);
+
+	if (result == NULL)
+	{
+		return (NULL);
+	}
 
 	strcpy(result, s1);
 	strcat(result, s2);

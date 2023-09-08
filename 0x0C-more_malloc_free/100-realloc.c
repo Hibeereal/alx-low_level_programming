@@ -5,7 +5,7 @@
 /**
  * _realloc - rite a function that reallocates a memory block using
  * malloc and free
- * ptr: pointer
+ * @ptr: pointer
  * @old_size: old pointer value
  * @new_size: pointer
  *

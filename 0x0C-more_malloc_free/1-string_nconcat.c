@@ -28,6 +28,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		s2 = "";
 	}
+	if (n >= len2)
+	{
+		return (s2);
+	}
 
 	arr = (char *) malloc(len1 + len2 + 1);
 

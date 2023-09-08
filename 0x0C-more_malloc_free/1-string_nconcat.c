@@ -31,7 +31,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s2 = "";
 	}
 
-	arr = (char *) malloc( concat_len + 1);
+	arr = (char *) malloc(concat_len + 1);
 
 	if (arr == NULL)
 	{

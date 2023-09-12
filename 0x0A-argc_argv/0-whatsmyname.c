@@ -8,6 +8,13 @@
  *
  * Return: 0
  */
+
+/**
+ * _putchar - write function
+ * @c: character value
+ *
+ * Return: 0
+ */
 int _putchar(char c)
 {
 	return (write(1, &c, 1));

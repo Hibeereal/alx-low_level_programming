@@ -28,8 +28,8 @@ int i;
 		if (*ops[i].op == *s)
 		{
 			return (ops[i].f);
-			i++;
 		}
+		i++;
 	}
 	return (NULL);
 }

@@ -3,8 +3,9 @@
 #include "variadic_functions.h"
 
 /**
- * print_numbers - Write a function that prints numbers, followed by a new line.
- * @seperator: seperator after the printed numbers
+ * print_numbers - Write a function that prints numbers,
+ * followed by a new line.
+ * @separator: seperator after the printed numbers
  * @n: number passed
  *
  * Return: 0 on success
@@ -15,6 +16,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	unsigned int i;
 	int result;
 	va_list numbers;
+
 	va_start(numbers, n);
 
 	for (i = 0; i < n; i++)
